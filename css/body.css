@@ -1,0 +1,46 @@
+.container-cards {
+    background-color: #f5efef;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title-body h1 {
+    color: #2bbdce;
+    margin-top: 0;
+    padding: 40px;
+    text-align: center;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px #000;
+    width: 28%;
+}
+
+.card picture img {
+    max-width: 100%;
+}
+
+.card-content {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+
+.card-content h1 {
+    font-weight: lighter;
+}
+
+.card-content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
