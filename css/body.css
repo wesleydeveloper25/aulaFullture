@@ -1,13 +1,18 @@
+/* -------    CARDS   ------- */
 .container-cards {
     background-color: #f5efef;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%; /**/
 }
 
 .title-body h1 {
     color: #2bbdce;
     margin-top: 0;
-    padding: 40px;
+    /*padding: 40px;*/
+    font-size: 2.2em; /**/
+    padding-top: 30px; /**/
+    padding-bottom: 10px; /**/
     text-align: center;
     font-family: "Open Sans";
     letter-spacing: 2px;
@@ -26,7 +31,11 @@
     width: 28%;
 }
 
-.card picture img {
+/*.card picture img {
+    max-width: 100%;
+}*/
+
+img { /**/
     max-width: 100%;
 }
 
@@ -36,11 +45,59 @@
 }
 
 .card-content h1 {
-    font-weight: lighter;
+    font-size: 1.6rem; /**/
+    letter-spacing: 1px; /**/
+    margin-bottom: 0; /**/
+    margin-top: 15px; /**/
+    font-weight: 500;
 }
 
 .card-content p {
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.1rem; /**/
+    font-weight: lighter; /**/
+    margin-top: 15px; /**/
+    line-height: 1.7rem; /**/
 }
 
+/* -------    GALERIA   ------- */
+
+/*  CONTAINER GALERIA DE FOTOS  */
+.container-dark {
+    background-color: #449ad3;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /*  TÍTULO DA GALERIA  */
+  .title-gallery {
+    width: 100%;
+    font-size: 1.4em; /**/
+  }
+  
+  .title-gallery h1 {
+    color: #fff;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    text-align: center;
+    
+  }
+  
+  /*  SEÇÃO DA GALERIA  */
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /*  MOLDURA DA IMAGEM  */
+  .gallery .foto {
+    padding: 10px;
+    margin: 20px;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 0.25rem;
+  }
+  
