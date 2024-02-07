@@ -26,12 +26,15 @@
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/header.css" />
 
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/media.css" /> 
+
     <title>Você fullturist fitness</title>
   </head>
   <body>
     <header>
       <nav class="top-menu">
-        <img src="img/logo.png" alt="logo você fitness" />
+        <div><img src="img/logo.png" alt="logo você fitness" /></div>
         <ul class="menu">
           <li class="menu-item ativo"><a href="#">Início</a></li>
           <li class="menu-item"><a href="#">Modalidades</a></li>
@@ -182,51 +185,85 @@
             para preencher os espaços de texto em publicações para testar e
             ajustar aspectos visuais antes de utilizar conteúdo real.
           </p>
-          <p class="p-info"><i class="fa-solid fa-calendar-days"></i> Atendimento: Segunda a Sexta</p>
-          <p class="p-info"><i class="fa-solid fa-location-dot"></i> Local: Estado e Cidade</p>
+          <p class="p-info">
+            <i class="fa-solid fa-calendar-days"></i> Atendimento: Segunda a
+            Sexta
+          </p>
+          <p class="p-info">
+            <i class="fa-solid fa-location-dot"></i> Local: Estado e Cidade
+          </p>
           <p class="p-info"><i class="fa-solid fa-phone"></i> 21 0000-0000</p>
-          <p class="p-info"><i class="fa-brands fa-whatsapp"></i> 21 90000-0000</p>
+          <p class="p-info">
+            <i class="fa-brands fa-whatsapp"></i> 21 90000-0000
+          </p>
           <p class="p-info"><i class="fa-solid fa-clock"></i> 9:00 ás 20:00</p>
         </article>
       </section>
     </main>
 
-    <footer>
-      <article>
-        <h1>Menu</h1>
+    <footer class="container-dark">
+      <article class="list-footer">
+        <div class="titleFooter"><i class="fa-solid fa-globe"></i>Menu</div>
         <ul>
-          <li>Página inicial</li>
-          <li>Modalidades</li>
-          <li>Galeria de fotos</li>
-          <li>Contato</li>
+          <li><a href="#" aria-label="Página inicial">Página inicial</a></li>
+          <li><a href="#" aria-label="Modalidades">Modalidades</a></li>
+          <li><a href="#">Galeria de Fotos</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </article>
 
-      <article>
-        <h1>Redes sociais</h1>
+      <article class="list-footer">
+        <div class="titleFooter">
+          <i class="fa-solid fa-share-nodes"></i>Redes Sociais
+        </div>
         <ul>
-          <li>/suaAcademia</li>
-          <li>/suaAcademia</li>
-          <li>/suaAcademia</li>
-          <li>/suaAcademia</li>
+          <li>
+            <i class="fa-brands fa-facebook"></i><a href="#">/suaAcademia</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-square-instagram"></i
+            ><a href="#">/suacademia</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter"></i><a href="#">/suacademia</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-pinterest"></i><a href="#">/suacademia</a>
+          </li>
         </ul>
       </article>
 
-      <article>
-        <h1>Atendimento</h1>
+      <article class="list-footer">
+        <div class="titleFooter">
+          <i class="fa-solid fa-comment-dots"></i>Atendimento
+        </div>
         <ul>
-          <li>contato@seusite.com.br</li>
-          <li>21 90000-0000</li>
-          <li>21 90000-0000</li>
+          <li><a href="#">contato@seusite.com.br</a></li>
+          <li><a href="#">21 90000-0000</a></li>
+          <li><a href="#">21 90000-0000</a></li>
         </ul>
       </article>
 
-      <article>
-        <h1>Newsletter</h1>
-        <form>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="E-mail" />
-          <button>Enviar</button>
+      <article class="list-footer">
+        <div class="titleFooter">
+          <i class="fa-solid fa-envelope"></i>Newsletter
+        </div>
+        <form class="my-formulario" action="#" method="post">
+          <input
+            class="effect-line"
+            type="text"
+            placeholder="Seu nome"
+            aria-label="nome para contato"
+          />
+
+          <input
+            class="effect-line"
+            type="text"
+            placeholder="Seu e-mail"
+            aria-label="email para contato"
+          />
+
+          <button class="btn-enviar" title="Enviar">Enviar</button>
         </form>
       </article>
     </footer>
